@@ -49,6 +49,5 @@ _I am the head of the technical department in a construction company. But I want
    - [Hexlet](адрес "[ru.hexlet.io](https://ru.hexlet.io/)") (JavaScript)
 
 ### Languages
-
 - Russian - native speaker
 - English - B2 (according to the online test at www.efset.org. Also I have spaking practice with native speaker.)
