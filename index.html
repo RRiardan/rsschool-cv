@@ -4,8 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Urbanist:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header>
+
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar_wrap">
+                        <ul class="navbar_menu">
+                            <li><a href="#my_info">My contact info</a></li>
+                            <li><a href="#personal_header">About me</a></li>
+                            <li><a href="#skills_header">Skills</a></li>
+                            <li><a href="#code">Code examples</a></li>
+                            <li><a href="#education_header">Education</a></li>
+                            <li><a href="#courses_header">Courses</a></li>
+                            <li><a href="#languages_header">Languages</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <section class="header">
+        <div class="main">
+            <img src="./avatar.png" alt="my_photo" class="my_photo">
+            <div class="general">
+                <h1 class="my_name">Biktimirov Bulat Rinatovich</h1>
+                <div class="divider"></div>
+                <h2 class="position">front-end developer</h2>
+            </div>
+        </div>
+    </section>
+    <div class="bold_divider"></div>
+<main>
+    <section class="contacts_about">
+        <div class="contacts">
+            <h2 id="my_info">My contact info</h2>
+            <div class="address_list">
+            <ul>
+                <li><a href="https://goo.gl/maps/efPc44wqtDQAHNoJA" target="blank__"><img src="./icons/location.png" width="20" 
+                    height="20" alt="location"></a> Atyrau, Kazakhstan</li>
+                
+                    <li><img src="./icons/phone.png" alt="pnone" width="20" height="20"> + 7 775 595 93 80, +7 952 711 99 44</li>
+                    
+
+                    <li><a href="mailto:bulatoil@yandex.ru" target="blank_"><img src="./icons/mail.png" width="20" 
+                    height="20" alt="mail"></a> bulatoil@yandex.ru</li>
+                    
+                    
+                    <li><a href="https://github.com/RRiardan" target="blank_"><img src="./icons/github.png" width="20" 
+                        height="20" alt="github"></a> RRiardan</li>
+
+                    <li><a href="https://t.me/rriardan" target="blank_"><img src="./icons/telegram.png" width="20" 
+                        height="20" alt="telegram"></a> RRiardan</li>
+            </ul>
+        </div>
+        </div>
+        <div class="personal_info">
+            <h2 id="personal_header">About me</h2>
+            <div class="personal_text">
+            I am the head of the technical department in a construction company. But I want to change the field of activity, because I really like programming. I am very passionate about the learning process. I want to continue to develop and I want to become a top notch front-end developer
+            </div>
+        </div>
+        
+    </section>
+    
+</main>
+    <div class="bold_divider"></div>
+
+    <section class="my_skills">
+        <div class="skills">
+            <h2 id="skills_header">Skills</h2>
+            <ul class="skills_list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (in process)</li>
+                <li>Avocode, Adobe Illustrator, Inspect</li>
+            </ul>
+        </div>
+        <div class="code_example">
+            <h2 id="code">Code examples</h2>
+            <div class="function">
+            <code>
+                const palindrome = str => { <br>
+                    str = str.toLowerCase() <br>
+                    return str === str.split('').reverse().join('') <br>
+                  } <br>
+            </code>
+            </div>
+            
+        </div>
+    </section>
+    <div class="bold_divider"></div>
+    <section class="education">
+        <div class="university">
+            <h2 id="education_header">Education</h2>
+            <div class="education_list">
+            <p>Ufa State Petroleum Technological University:</p>
+                <ul>
+                <li>bachelor and masters degree of oil and gas drilling</li>
+            </ul>
+            </div>
+        </div>
+        <div class="courses">
+            <h2 id="courses_header">Courses</h2>
+            <div class="courses_list">
+            <ul>
+                <li><a href="https://www.udemy.com/course/webdeveloper/" target="blank_"><img src="./icons/udemy.png" width="20" height="20" alt="udemy"></a> Udemy (web developer)</li>
+                <li><a href="https://ru.hexlet.io/courses/js-basics" target="blank_"><img src="./icons/hexlet.png" width="20" height="20" alt="hexlet"></a> Hexlet (JavaScript basics) </li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="languages">
+            <h2 id="languages_header">Languages</h2>
+            <div class="languages_list">
+            <ul>
+                <li>Russian - native speaker</li>
+                <li>English - B2 (according to the online test at www.efset.org. Also I have spaking practice with native speaker.)</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+    <footer>     
+            <div class="git_logo">
+            <a href="https://github.com/RRiardan" target="blank_"><img src="./icons/github.png" width="20" 
+                height="20" alt="github"> RRiardan</a>
+            </div>
+            <div class="rs_logo">
+            <a href="https://rs.school/js/" target="blank_"><img src="./icons/rs_school.png" width="70" 
+                height="40" alt="rs_school"></a>
+           </div> 
+           <div class="year">2023</div>
+    </footer>
 </body>
 </html>
+
+
+
+
+
+    
